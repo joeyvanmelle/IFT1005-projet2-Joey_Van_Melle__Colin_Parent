@@ -1,0 +1,83 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+
+:root,
+body, 
+header, 
+footer, 
+section, 
+article, 
+div, 
+ul, ol, li, 
+p, a, span,
+label, input, button {
+	font-family: 'Roboto', arial;
+};
+
+body {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+
+/** 
+Le syle de header, nav, ul, li et a est modifié par les classes de bootstrad
+ */
+
+object {
+	height: 70px;
+}
+
+nav ul {
+	position: absolute;
+	right:0;
+}
+ nav a {
+	 color: white;
+ }
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+ #recettes {
+	 display:none;
+ }
+/** 
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+#contact {
+	display:none;
+}
+/** 
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+/** 
+ * This section should contain at least the
+ * following elements: p.
+ */
